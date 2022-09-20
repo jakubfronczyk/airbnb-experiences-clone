@@ -1,4 +1,4 @@
-# Question about React 
+# Question about React props
 
 1. What do props help us accomplish ?
 
