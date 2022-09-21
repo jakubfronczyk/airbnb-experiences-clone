@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#practice
+/src/components/Joke.js
+/src/components/Props.js
+/src/components/Contact.js
+/src/components/JokeProps.js
+/src/components/Props.js
+/src/images-practice
