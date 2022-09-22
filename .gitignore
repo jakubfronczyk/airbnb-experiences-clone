@@ -29,3 +29,4 @@ yarn-error.log*
 /src/components/JokeProps.js
 /src/components/Props.js
 /src/images-practice
+/src/components/JokesData.js
