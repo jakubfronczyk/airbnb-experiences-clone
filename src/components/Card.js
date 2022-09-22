@@ -1,5 +1,6 @@
 import React from 'react';
 import star from '../images/star.png';
+// C:\Users\Jay Fronczesko\repositories\airbnb-experiences-clone\src\images\star.png
 
 
 export default function Card(props){
