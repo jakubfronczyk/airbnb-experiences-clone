@@ -28,3 +28,18 @@ function Navbar(props){
 5. What data type is `props` when the component receives it ?
 
 The data type of props when component receives it is an object.
+
+
+6. What doest the `.map()` array method do ?
+
+The `.map()` array method creates new array from calling a function for every array elemnt
+Returns a new array, whatever gets returned from the callback functions provided is placed at the same index in the new array.
+Usually we take the items from the orginal array and mofidy them in some way
+
+7. What do we usually use `.map()` for in React ?
+
+Convert an array of raw data into an array of JSX elemntes that can be displayed on the page.
+
+8. Why is using `.map()` method is better then just creating the components manually by typing them out ?
+
+It makes our code more self-sustaining it means not requairing additonal changes whenever the data changes.
