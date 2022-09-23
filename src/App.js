@@ -3,24 +3,15 @@ import Navbar from './components/Navbar.js';
 import Hero from './components/Hero.js';
 import Card from './components/Card.js';
 import data from './data.js'
-// import JokeProps from './components/JokeProps.js';
-// import Props from './components/Props.js';
+
 
 function App() {
 
-  const dataMap = data.map(data => {
+  const cards = data.map(data => {
     return (
       <Card
-      id= {data.id}
-      title= {data.title}
-      description= {data.description}
-      price= {data.price}
-      coverImg= {data.coverImg}
-      status= {data.status}
-      rating= {data.rating}
-      reviewCount= {data.reviewCount}
-      location= {data.location}
-      openSpots= {data.openSpots}
+      key= {data.id}
+      {...data}
       />
     )
   })
@@ -29,7 +20,9 @@ function App() {
     <div className="">
       <Navbar />
       <Hero />
-      {dataMap}
+      <section className="card-section">
+        {cards}
+      </section>
     </div>
   );
 }
