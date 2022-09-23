@@ -12,6 +12,7 @@
 The most important thing to me was mapping over data that means if data ever changes my page automatically will update in card section where you can see Online Experiences
 
 Website preview:
+
 ![](https://github.com/jakubfronczyk/airbnb-experiences-clone/blob/main/src/images/website-preview.png)
 
 
